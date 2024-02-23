@@ -1,0 +1,36 @@
+.d {
+    background-image: url('./ff.jpg'); /* Replace 'your-background-image.jpg' with the actual image URL */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+}
+
+.login-container {
+    background-color: transparent;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.login-button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 248px;
+    margin-left:90px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login-button:hover {
+    background-color: #2980b9;
+}
